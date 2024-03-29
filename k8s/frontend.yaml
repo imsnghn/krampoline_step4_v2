@@ -9,13 +9,13 @@ spec:
       app: frontend
   template:
     metadata:
-      labels:
+      labels: 
         app: frontend
     spec:
       containers:
         - name: frontend
           # 여러분의 frontend image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_a15a0d7a955a
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_958a0880bb2f
 ---
 apiVersion: v1
 kind: Service
